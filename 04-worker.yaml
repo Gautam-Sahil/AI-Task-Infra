@@ -22,10 +22,10 @@ spec:
             name: platform-config
         resources:
           requests:
-            memory: "128Mi"
+            memory: "256Mi" # Increased
             cpu: "100m"
           limits:
-            memory: "512Mi"
+            memory: "512Mi" # Increased
             cpu: "500m"
 ---
 apiVersion: autoscaling/v2
