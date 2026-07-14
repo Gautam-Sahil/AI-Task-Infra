@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: ai-task-platform-backend:latest
+        image: gautamsahil/ai-task-backend:6dd6008181144ff8c67afdca284dade4cfc90a31
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5000

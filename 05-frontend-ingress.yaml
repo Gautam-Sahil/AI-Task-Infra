@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ai-task-platform-frontend:latest
+        image: gautamsahil/ai-task-frontend:6dd6008181144ff8c67afdca284dade4cfc90a31
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
