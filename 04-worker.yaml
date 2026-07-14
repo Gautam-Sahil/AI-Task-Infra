@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: worker
-        image: gautamsahil/ai-task-worker:6dd6008181144ff8c67afdca284dade4cfc90a31
+        image: gautamsahil/ai-task-worker:88d45fddfeffebad0f97f0118cdc5b89d63c4e48
         imagePullPolicy: IfNotPresent
         envFrom:
         - configMapRef:
